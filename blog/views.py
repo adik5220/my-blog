@@ -42,3 +42,10 @@ def post_edit(request, pk):
     else:
         form = PostForm(instance=post)
     return render(request, 'blog/post_edit.html', {'form': form})
+
+
+def get_photo_url(self):
+    if self.photo and hasattr(self.photo, 'url'):
+        return self.photo.url
+    else:
+        return "/static/img/img.jpg"

@@ -1,9 +1,16 @@
 {% extends 'blog/base.html' %}
 
 {% block content %}
-    <h1>New post</h1>
+<div class="slider-2">
+	<div class="container container-fluid m-0 p-0">
+    	<h2>Добавить анкету</h2>
+    	<p>Добовьте вашу анкету</p>
+	</div>
+</div>
+<div class="container">
     <form method="POST" class="post-form" enctype="multipart/form-data">{% csrf_token %}
         {{ form.as_p }}
         <button type="submit" class="save btn btn-default">Save</button>
     </form>
+</div>
 {% endblock %}

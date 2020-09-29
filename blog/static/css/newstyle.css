@@ -1,0 +1,165 @@
+
+.girl {
+	position: relative;
+	height: 350px;
+	overflow: hidden;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.girl:hover {
+	box-shadow: none;
+}
+.ava-girl {
+	position: absolute;
+}
+.ava-girl img {
+	
+	width: 100%;
+}
+.opis {
+	position: absolute;
+	bottom: 0;
+	color: #fff;
+	width: 100%;
+	padding-left: 10px;
+	text-shadow: rgba(0,0,0,1) 0 0 3px;
+}
+.opis h5 {
+	margin-bottom: 5px;
+}
+
+.price-2 h6 {
+	font-size: 12px;
+	margin-bottom: 0;
+}
+.price-2 p {
+	margin-bottom: 0;
+}
+
+.adress p{
+	display: inline-block;
+}
+.price-2 {
+	
+}
+.price-2 .col3 {
+	background: rgba(0, 0, 0, 0.25);
+	border-radius: 5px;
+	text-align: center;
+	border: 1px solid #fff;
+	width: 30%;
+	display: inline-block;
+}
+
+.galochka {
+	z-index: 1;
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	right: 0px;
+}
+.galochka img {
+	width: 100%;
+
+}
+.carousel-inner {
+	height: 500px;
+	overflow: hidden;
+}
+.carousel-inner img {
+	width: 100%;
+
+}
+.carousel-caption {
+	top:5%;
+	text-align: left;
+	text-shadow: rgba(0,0,0,1) 0 0 4px;
+}
+.carousel-caption h3 {
+	font-size: 3rem;
+}
+
+
+@media only screen and (min-device-width: 751px) and (max-device-width: 990px) and (-webkit-min-device-pixel-ratio: 2) {
+	.container {
+		max-width: 100%;
+	}
+	.girl {
+		height: 690px;
+	}
+	.opis h5 {
+		font-size: 2.72rem;
+	}
+	.price-2 h6{
+		font-size: 1.72rem;
+		display: inline;
+		padding-right: 10px;
+	}
+	.price-2 p {
+		font-size: 1.72rem;
+		display: inline;
+	}
+	.adress {
+		font-size: 1.82rem;
+	}
+	.carousel-inner {
+	height: 350px;
+	overflow: hidden;
+}
+	
+}
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 750px) and (-webkit-min-device-pixel-ratio: 2) {
+	
+	.girl {
+		height: 690px;
+	}
+	.opis h5 {
+		font-size: 4.6rem;
+	}
+	.price-2 .col3:nth-child(2){
+		display: none;
+	}
+	.price-2 .col3:nth-child(3){
+		display: none;
+	}
+	.price-2 .col3:first-child{
+		width: 90%;
+		text-align: left;
+		padding-left: 10px;
+
+	}
+	.price-2 h6{
+		font-size: 2.72rem;
+		display: inline;
+		padding-right: 10px;
+	}
+	.price-2 p {
+		font-size: 2.72rem;
+		display: inline;
+	}
+	.adress {
+		font-size: 2.25rem;
+	}
+	.container {
+		max-width: 100%;
+	}
+	.galochka {
+		width: 90px;
+		height: 90px;
+	}
+	.carousel-caption h3 {
+	font-size: 6rem;
+	}
+	.carousel-caption p {
+		font-size: 2.72rem;
+	}
+}
+@media (min-width: 768px) and (max-width: 992px){
+	.container {
+		max-width: 100%;
+	}
+}
+
+
+
